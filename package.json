@@ -20,7 +20,7 @@
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "^4.17.0",
-		"@nuxt/eslint": "^1.5.2",
+		"@nuxt/eslint": "^1.6.0",
 		"@tailwindcss/vite": "4.1.11",
 		"eslint": "^9.31.0",
 		"typescript": "^5.8.3"
