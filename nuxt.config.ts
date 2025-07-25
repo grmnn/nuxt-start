@@ -17,10 +17,7 @@ export default defineNuxtConfig({
 		},
 	},
 	compatibilityDate: '2024-04-03',
-	css: [
-		'@/assets/font.css',
-		'@/assets/styles.css',
-	],
+	css: ['@/assets/styles.css'],
 	devtools: { enabled: false },
 	eslint: {
 		config: {
@@ -30,9 +27,7 @@ export default defineNuxtConfig({
 	experimental: {
 		typedPages: true,
 	},
-	modules: [
-		'@nuxt/eslint',
-	],
+	modules: ['@nuxt/eslint', '@nuxt/fonts'],
 	typescript: {
 		strict: true,
 	},
