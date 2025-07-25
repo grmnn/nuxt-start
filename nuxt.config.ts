@@ -30,9 +30,6 @@ export default defineNuxtConfig({
 	experimental: {
 		typedPages: true,
 	},
-	future: {
-		compatibilityVersion: 4,
-	},
 	modules: [
 		'@nuxt/eslint',
 	],
