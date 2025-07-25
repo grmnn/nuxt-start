@@ -5,7 +5,8 @@ export default defineNuxtConfig({
 		head: {
 			meta: [
 				{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-				{ name: 'theme-color', content: '#000000' },
+				{ name: 'title', content: 'Nuxt Starter' },
+				{ name: 'description', content: 'A minimalistic Nuxt starter template.' },
 			],
 			link: [
 				{
@@ -18,7 +19,7 @@ export default defineNuxtConfig({
 	},
 	compatibilityDate: '2024-04-03',
 	css: ['@/assets/styles.css'],
-	devtools: { enabled: false },
+	devtools: { enabled: true },
 	eslint: {
 		config: {
 			standalone: false,
