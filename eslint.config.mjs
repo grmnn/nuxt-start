@@ -13,6 +13,7 @@ export default withNuxt(
 	}),
 	{
 		rules: {
+			'curly': ['error', 'all'],
 			'style/brace-style': ['error', '1tbs', { allowSingleLine: true }],
 			'style/arrow-parens': ['error', 'always'],
 			'no-console': 'warn',
